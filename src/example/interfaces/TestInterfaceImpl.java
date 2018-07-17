@@ -29,7 +29,7 @@ public class TestInterfaceImpl implements TestInterface {
 
     public static void main(String[] args) {
         /** 发送webservice服务
-          * publish(String address, Object implementor)
+          * 使用Endpoint.publish(String address, Object implementor)发布服务
           * address: 服务地址
           * implementor: 实现类
           **/
